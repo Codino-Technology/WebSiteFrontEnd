@@ -14,7 +14,6 @@ import { Badge } from '@/components/ui/badge';
 import {
     Mail,
     Phone,
-    MapPin,
     MessageSquare,
     Handshake,
     HelpCircle,

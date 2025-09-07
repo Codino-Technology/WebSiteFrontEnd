@@ -58,31 +58,6 @@ export default function HomePage() {
         }
     ];
 
-    const testimonials = [
-        {
-            name: "Sarah Chen",
-            role: "Parent",
-            image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=64&h=64&fit=crop&crop=face",
-            content: "My 10-year-old daughter went from knowing nothing about coding to building her own robot in just two weeks. The progression is perfect and she's constantly excited to learn more."
-        },
-        {
-            name: "Mr. Johnson",
-            role: "5th Grade Teacher",
-            image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=64&h=64&fit=crop&crop=face",
-            content: "Codino transformed our STEM program. Students are more engaged than ever, and the curriculum alignment makes it easy to integrate into our existing classes."
-        },
-        {
-            name: "Alex, Age 12",
-            role: "Student",
-            image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=64&h=64&fit=crop&crop=face",
-            content: "I love how I can test my robot in the computer first, then build it for real. The challenges get harder but never feel impossible!"
-        }
-    ];
-
-    const schoolLogos = [
-        "Lincoln Elementary", "Tech Valley Middle School", "Riverside Academy",
-        "Innovation High School", "STEM Charter School", "Future Leaders Institute"
-    ];
 
     const faqs = [
         {

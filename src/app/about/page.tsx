@@ -13,7 +13,6 @@ import {
     Leaf,
     Users,
     Globe,
-    BookOpen,
     GraduationCap,
     Building,
     Calendar,
@@ -92,12 +91,6 @@ export default function AboutPage() {
         }
     ];
 
-    const impactStats = [
-        { number: "50,000+", label: "Students Reached", icon: <GraduationCap className="h-6 w-6 text-blue-600" /> },
-        { number: "500+", label: "Schools Partnered", icon: <Building className="h-6 w-6 text-green-600" /> },
-        { number: "25+", label: "Countries", icon: <Globe className="h-6 w-6 text-purple-600" /> },
-        { number: "95%", label: "Student Satisfaction", icon: <Heart className="h-6 w-6 text-red-600" /> }
-    ];
 
     return (
         <div className="min-h-screen">
@@ -115,7 +108,7 @@ export default function AboutPage() {
                         </h1>
                         <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
                             At Codino, we believe that every child has the potential to become a creator, innovator, and problem-solver.
-                             We're on a mission to make robotics and coding education accessible, engaging, and impactful for learners worldwide.
+                             We&apos;re on a mission to make robotics and coding education accessible, engaging, and impactful for learners worldwide.
                         </p>
                     </div>
                 </div>
@@ -304,7 +297,7 @@ export default function AboutPage() {
                     <div className="text-center mb-16">
                         <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">Our Journey & Roadmap</h2>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                            From startup vision to global impact—here's how we're building the future of education
+                            From startup vision to global impact—here&apos;s how we&apos;re building the future of education
                         </p>
                     </div>
 
@@ -342,7 +335,7 @@ export default function AboutPage() {
                         Join Our Mission
                     </h2>
                     <p className="text-xl text-blue-100 mb-12 leading-relaxed">
-                        Whether you're a parent looking to inspire your child, an educator seeking to transform your classroom,
+                        Whether you&apos;re a parent looking to inspire your child, an educator seeking to transform your classroom,
                         or a partner wanting to shape the future of education—we invite you to be part of the Codino community.
                     </p>
 
@@ -422,7 +415,7 @@ export default function AboutPage() {
                     </div>
 
                     <p className="text-sm text-blue-200 mt-8">
-                        Ready to shape the future of education? Let's build it together.
+                        Ready to shape the future of education? Let&apos;s build it together.
                     </p>
                 </div>
             </section>
